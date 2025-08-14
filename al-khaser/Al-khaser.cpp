@@ -107,7 +107,7 @@ void print_help(const char* prog_name){
 
 int main(int argc, char* argv[]){
 	/* enable functions */
-	UINT delayInSeconds = 600U; // default value
+	UINT delayInSeconds = 5U; // default value
 	int enabled_checks = 0;
 
 	if (argc > 1) {
@@ -445,4 +445,5 @@ int main(int argc, char* argv[]){
 	getchar();
 	return 0;
 }
+
 
