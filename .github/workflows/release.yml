@@ -2,6 +2,7 @@ name: Build Release Artifacts
 on:
   release:
     types: [published]
+  workflow_dispatch:
 jobs:
   build:
     runs-on: windows-2022
